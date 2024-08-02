@@ -1,6 +1,13 @@
 # Generate and expose docs locally
 
 ```bash
+
+
+    python3 -m venv  /Users/gestrem/python/
+    source  /Users/gestrem/python/bin/activate
+
+```
+```bash
 pip install pipenv
 pipenv install
 pipenv run mkdocs build --clean
